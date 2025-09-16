@@ -4,7 +4,7 @@
 }
 
 .header__logo{
-    flex: 1;
+    flex: 0.4673;
     display: flex;
 
     position: relative;
@@ -21,6 +21,31 @@
 
 .header__logo h4{
     padding-left: 30px;
-
+    font-size: 35px;
     color: #fff;
+}
+
+.header__menu{
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    flex: 0.583;
+    justify-content: space-around;
+}
+
+.header__menu li{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-mobile{
+    list-style-type: none;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+}
+
+.header__menu-mobile li{
+    stroke: black;
 }
